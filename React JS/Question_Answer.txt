@@ -1,0 +1,4 @@
+What is useRefs Hooks?
+    We are using useRefs hook for 2 purposes
+        1. To stop re-render while updating our State values.
+        2. To stor previous state values.
