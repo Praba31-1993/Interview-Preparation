@@ -1,4 +1,34 @@
-What is useRefs Hooks?
-    We are using useRefs hook for 2 purposes
+1. What is useRefs Hooks?
+    We are using useRefs hook for 3 purposes
         1. To stop re-render while updating our State values.
-        2. To stor previous state values.
+        2. To store previous state values.
+        3. Managing focus, text selection, or media playback.
+
+2. what is Controlled and Uncontrolled Components in React JS?
+  
+  Controlled Components : This Components will handled by the React State.
+  Uncontrolled Components: This Components will handled by the JS Dom itself.
+
+3. What is Reconciliation in React JS?
+
+    If props or State values will update in React Components, React decides to compare new value 
+    with the old value in Dom. If both are not equal it will update in Virtual Dom. 
+
+4. What is the purposes of using props in super method ?
+    
+     Super Method will be used in class components. In Class component we will use this.
+     In super(props)  - this.props will accept for the component
+        super()       - this.props will not accept for the component. If you give this.props value
+                         will be undefined. but if you give props value will be defined.
+
+5. What is Portals in React JS?
+    
+    - Portals means Jumping from one place to another place.
+    
+    - We can create one Portal component
+    and give instruction wehere we need our data to be rendered. and call that Portal
+    component.
+    - We will Mainly use Portal for Modal, Tooltip, Animation effects etc.
+    
+
+

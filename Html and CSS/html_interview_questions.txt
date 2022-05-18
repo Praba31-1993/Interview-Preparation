@@ -1,0 +1,107 @@
+Questions:
+
+1. What is HTML?
+	-hypertext markup language
+	-to create and design a web page
+	-the structure of html is <html>,<head>,<title>,<body>
+	-markup language->using understand for end user
+
+2. What is Meta Tags?
+	-short description for browser about the document
+
+3. What is Semantic and Non-Semantic Tags?
+	-semantic tags are meaning full of tags such as article,aside,header,footer,etc.,
+	-non-semantic tags no meaning full its only a div tag
+
+4. What is block level elements ?
+	-block of content to use tags
+	eg:<aside>,<body>,<section>
+
+5. What is Inline elements?
+	-using the tags in single line
+	eg:<a>,<b>,<i>
+
+6. How to give space in html?
+	&nbsp;
+
+7. what is the tag for Favicon?
+	<link></link>
+
+8. What is the Hierachy for Heading Tags?
+	-h1 is main heading tag
+	-h2 to h6 are sub heading tags
+
+9. What are the Types of Lists?
+	-order
+	-unorder
+	-description
+
+10. What is Section Tags?
+	-generic specific
+
+11. How we can use <a> tags in html?  
+	<a href="link.com">click</a>
+ 
+12. Difference between a:visited, a, a:hover?
+	- a link is after visted
+ 	- a link is hovering a mouse pointer
+
+13  Link Tag to download the image in html?
+	<a href="download.png" download>download</a>
+
+14. How to send Mail by using Html?
+	<a href="mailto:username@gamil.com">Email</a>
+15. How to call from Html tag?
+	<a href="tel:+1234567890">call</a>
+
+16. How to Link a page to new tab?
+	target="_blank"
+17. What are the Rules for Link Pages?
+
+18. How to set image in the browser?
+	<link ref=icon href="favicon.icon" type="image/x-icon"/>
+
+19. What are the two loading attributes for the image?
+	-lazy 
+	-eager(default)
+
+20. Difference between figcaption and figure?
+	-figure is self contained content and figcaption is caption for that .
+
+21. Why we are using colspan and rowspan in html table?
+	-cells into multiple rows or column
+
+22. why we are using scope ="row"  and scope ="col" in html table?3
+	-merge a row or column
+.
+23. What are the semantic tags are available in Html table?
+	-aside,article,header,footer,nav,
+
+24. What are tags are available to create form in HTML?
+	-label,input,textarea,select,option,button
+
+25. How to create radio, dropdown in form?
+	-give input type="radio" and value
+
+26. what is fieldset in form?
+	-group of fields in fieldset
+
+27. How to split the lable in dropdown?
+ 
+28. what Reset type will do in form?
+	-reset the all values in the form 
+
+29. What is legend and difference between Legend and label?
+	-legend is caption of fieldset
+	-label is name of the field
+
+30. what is the Default size for Heading tags?
+	h1-32px, 2em
+	h2-24px
+	h3-18px
+	h4-16px, 1em
+	h5-13.
+	h6-10.72
+31. what is summary and where we can use?
+	-summary tag is use to detial the contentin open close toogle
+	-we use in summary tag in between the details tag

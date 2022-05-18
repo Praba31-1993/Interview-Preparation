@@ -1,0 +1,98 @@
+CSS Interview Question
+
+1. What is CSS with its Abbreviation?
+2. How many Version in CSS?
+	3
+
+3. How to link CSS with HTML?
+4. Types of Selectors?
+	Simple selectors (select elements based on name, id, class)
+	Combinator selectors (select elements based on a specific relationship between them)
+		descendant selector (space)
+		child selector (>)
+		adjacent sibling selector (+)
+		general sibling selector (~)
+	Pseudo-class selectors (select elements based on a certain state)
+		Style an element when a user mouses over it
+		Style visited and unvisited links differently
+		Style an element when it gets focus
+	Pseudo-elements selectors (select and style a part of an element)
+		Style the first letter, or line, of an element
+		Insert content before, or after, the content of an element
+	Attribute selectors (select elements based on an attribute or attribute value)
+		The [attribute] selector is used to select elements with a specified attribute.
+
+5. What is Specificity and When to use Selectors?
+	Type selectors (e.g., h1) and pseudo-elements (e.g., ::before).
+	Class selectors (e.g., .example), attributes selectors (e.g., [type="radio"]) and pseudo-classes (e.g., :hover).
+	ID selectors (e.g., #example).
+	Universal selector (*), combinators (+, >, ~, " ", ||) and negation pseudo-class (:not()) have no effect on specificity. (The selectors declared inside :not() do, however.)
+
+6. Types of colors?
+7. How many Position in CSS?
+	static
+	relative
+	fixed
+	absolute
+	sticky
+
+8. List out the background Properties?
+	background-color
+	background-image
+	background-position
+	background-size
+	background-repeat
+	background-origin
+	background-clip
+	background-attachment
+
+9. What is Opacity and Transparency and Default valus of Opacity?
+10.Types of Units?
+11.Types of Gradients colors?
+	Linear, Radial,conic, Angle, Reflected and Diamond. 
+
+12.Text Manipulation and its properties?
+	letter-spacing
+	word-spacing
+	text-indent
+	text-align
+	text-align
+	text-transform
+	white-space  
+
+13.Explain Box Model?
+14.Float and Display types?
+	-The float property specifies whether an element should float to the left, right, or not at all.
+	-None, Inline, block, inline-block
+
+15.Flexbox and its properties?
+	Control the position, size and spacing of elements relative to their parents elements and each other.
+	They are great for responsive designing.
+	It has its own set of properties.
+	It defines formatting context, which controls layout.
+ 		display 
+		flex-direction
+		flex-wrap
+  		flex-flow
+		justify-content
+		align-content 
+		align-items
+		{parent properties: order , flex-grow , flex-shrink ,flex-basis , flex-self }  
+16.Grid and its properties?
+	Grid is one of CSS’s layout tools, which lets you easily implement a complex design layout using the “row and column approach.” Responsive web pages are created easier with a CSS grid without any hassle and consistently across browsers.
+		display.
+		grid-template-columns.
+		grid-template-rows.
+		grid-template-areas.
+		grid-template.
+		grid-column-gap.
+		grid-row-gap.
+		grid-gap
+
+17.Difference between Flexbox and Grid?
+	Dimensions define the primary demarcation between Flexbox and CSS Grid. Flexbox was designed specifically for one-dimensional layouts, while CSS Grid is engineered to enable two-dimensional layouts. Therefore, CSS Grid can easily render rows and columns simultaneously.
+
+18.Difference between Justify content and align content?
+
+19.Difference between Transition and Transform?
+20. What is Animation and Keyframes? 
