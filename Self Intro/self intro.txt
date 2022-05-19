@@ -16,8 +16,8 @@ Good Morning/Afternoon Sir/Mam,
           1. Requirement gathering and analysis.
           2. Designed and Developed using a mock design pattern.
           3. Involved in development of application level coding and deployment.
-          4. Involved in web based interfaces using HTML,  javascript.
-          5. Responsible for solving the bugs.
+          4. Involved in web based interfaces using HTML, Bootstrap, javascript.
+          5. Responsible for solving the bugs and improve the performance.
           6. Responsible for updating the functional and 
              Technical task for the project.
 
