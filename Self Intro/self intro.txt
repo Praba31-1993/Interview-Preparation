@@ -1,0 +1,17 @@
+Good Morning/Afternoon Sir/Mam,
+      I am Prabakaran from Orleanpet. Working as a Software Developer in Twilight IT solutions.
+      I had 3 years of Experience in React JS.
+      My Project Name is "Genie MD" and Domain Name is "React JS"
+            The Part of my Project is to improve the quality of life and make the user to take 
+            active role for managing their own health. This Project is acting as the intemediator between the
+            user and the Doctors and also providing medicines e-receipt via mail according the diseases.
+            In simple word, It is the online health care application.
+      Roles and Responsibilities:
+          1. Requirement gathering and analysis.
+          2. Designed and Developing using mock design pattern.
+          3. Involved in development of application level coding and deployment.
+          4. Involved in web based interfaces using HTML,  javascript.
+          5. Responsible for solving the bugs, functionality and Technical document for the 
+             project.
+             
+          
