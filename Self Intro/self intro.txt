@@ -5,18 +5,21 @@ Good Morning/Afternoon Sir/Mam,
             
             The Part of my Project is to improve the quality of life providing 
             solutions that enable users to take an active role for 
-            managing their own health. 
+            managing their health. 
             
             This Project is acting as the intemediator between the user and the Doctors and also
             providing assessment for medicines via mail according to the diseases.
+            
             In simple words, It is an online health care application.
+ 
  Roles and Responsibilities:
           1. Requirement gathering and analysis.
           2. Designed and Developed using a mock design pattern.
           3. Involved in development of application level coding and deployment.
           4. Involved in web based interfaces using HTML,  javascript.
-          5. Responsible for solving the bugs, functionality and 
-          Technical document for the project.
+          5. Responsible for solving the bugs.
+          6. Responsible for updating the functional and 
+             Technical task for the project.
 
           
           
