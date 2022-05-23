@@ -30,5 +30,23 @@
     component.
     - We will Mainly use Portal for Modal, Tooltip, Animation effects etc.
     
+More Priority Questions:
+
+1. Pure Components?
+2. Error Boundaries?
+3. State Management?
+4. Life Cycle in React?
+5. Redux?
+6. How Redux Works?
+7. Higher Order Components(HOC)?
+8. formik?
+9. Diffing Algorithm?
+10. Hooks and explain all hooks?
+11. Controlled and Uncontrolled component?
+12. Prop Drilling?
+13. What is State mutation and how to prevent it?
+14. Difference between useState and useRef in React?
+15. What is State Management?
+
 
 
