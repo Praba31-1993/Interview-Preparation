@@ -49,6 +49,22 @@ More Priority Questions:
 13. What is State mutation and how to prevent it?
 14. Difference between useState and useRef in React?
 
+Hooks in React JS:
+
+Basic Hooks:
+
+1. useState
+2. useEffect
+3. useContext
+
+Additional Hooks
+1. useRef
+2. useMemo
+3. useReducer
+4. useCallback
+5. useImperativeHandle
+6. useLayoutEffect
+7. useDebugValue
 
 
 1. Pure Components:
