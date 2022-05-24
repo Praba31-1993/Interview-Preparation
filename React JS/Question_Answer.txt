@@ -29,6 +29,8 @@
     and give instruction wehere we need our data to be rendered. and call that Portal
     component.
     - We will Mainly use Portal for Modal, Tooltip, Animation effects etc.
+  
+  
     
 More Priority Questions:
 
@@ -36,7 +38,7 @@ More Priority Questions:
 2. Error Boundaries?
 3. State Management?
 4. Life Cycle in React?
-5. Redux?
+5. Redux? and Redux Toolkit?
 6. How Redux Works?
 7. Higher Order Components(HOC)?
 8. formik?
@@ -46,7 +48,47 @@ More Priority Questions:
 12. Prop Drilling?
 13. What is State mutation and how to prevent it?
 14. Difference between useState and useRef in React?
-15. What is State Management?
 
+
+
+1. Pure Components:
+ 
+It will re-render only when the State and Props value changes. otherwise 
+it wont re-render the component. It will check automatically whether the 
+state and props value changed or not. If values are same it wont re-render
+If values are different it will re-render
+
+
+  What type of Problem does the Pure component should solve?
+
+        it will stop re-render the component again and again
+
+2. What is State Management?
+
+        Initializing the state by using useState and updating the state by using setstate Method.
+        We can transfer the state value by using props. 
+        For a bigger application transfer of more data is more complex at that time we 
+        need to use Redux or Redux Toolkit.
+
+3. Life Cycle in React Js?
+
+        Stages : 
+                1. Mounting
+                2. updating 
+                3. Unmounting
+        Lifecycle:
+                1. ComponentDidMount()
+                2. ComponentDidUpdate()        
+                3. ComponentWillUnmount()
+        Advance Lifecycle:
+                1. getDerivedFromProps()
+                2. shouldComponentUpdate()
+                3. getSnapshotBeforeUpdate()
+
+4. Higher Order Component (HOC)?
+
+        - HOC is a function that takes the component and returns the new component.
+        - Write the function inside that new componetn and insert logic inside that 
+        component and pass that function as argument.
 
 
