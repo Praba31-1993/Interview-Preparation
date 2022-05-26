@@ -1,0 +1,37 @@
+#container{
+    display: flex;
+    background-color: black;
+
+}
+.col{
+    height: 15em;
+    width: 25%;
+    /* background-color: goldenrod; */
+    border: 3px dashed red;
+    margin: 5px;
+    margin-top: 10em;
+    font-size: 20px;
+    
+}
+.static{
+    position: static;
+    background: red;
+}
+.relative{
+    position: relative;
+    background: blue;
+}
+.absolute{
+    position: absolute;
+    background: green;
+}
+.sticky{
+    position: sticky;
+    background: tomato;
+    top:20px;
+    margin: 20px;
+}
+.fixed{
+    position: fixed;
+    background: whitesmoke;
+}
