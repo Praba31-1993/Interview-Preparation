@@ -34,37 +34,21 @@
     
 More Priority Questions:
 
-1. Pure Components?
+1. Pure Components? ok
 2. Error Boundaries?
-3. State Management?
+3. State Management? ok
 4. Life Cycle in React?
 5. Redux? and Redux Toolkit?
 6. How Redux Works?
-7. Higher Order Components(HOC)?
+7. Higher Order Components(HOC)? ok
 8. formik?
 9. Diffing Algorithm?
-10. Hooks and explain all hooks?
-11. Controlled and Uncontrolled component?
+10. Hooks and explain all hooks? basic Hooks ok 
+11. Controlled and Uncontrolled component? ok
 12. Prop Drilling?
 13. What is State mutation and how to prevent it?
 14. Difference between useState and useRef in React?
 
-Hooks in React JS:
-
-Basic Hooks:
-
-1. useState
-2. useEffect
-3. useContext
-
-Additional Hooks
-1. useRef
-2. useMemo
-3. useReducer
-4. useCallback
-5. useImperativeHandle
-6. useLayoutEffect
-7. useDebugValue
 
 
 1. Pure Components:
@@ -108,3 +92,63 @@ If values are different it will re-render
         component and pass that function as argument.
 
 
+5. Hooks in React JS:
+
+Basic Hooks:
+
+1. useState
+2. useEffect
+3. useContext
+
+Additional Hooks
+1. useRef
+2. useMemo
+3. useReducer
+4. useCallback
+5. useImperativeHandle
+6. useLayoutEffect
+7. useDebugValue
+
+
+1. UseEffect : 
+    
+    Why: To run our operation after rendering our Virtual Dom.
+    
+    What: It will run operation after render, it accept some dependency array. If you give dependency
+    array, it will run based on that array.
+    
+    Where: We should use inside the component but we can't use this hook inside any function.
+
+2. usecontext :
+
+    Why: To access the data at by many component at different nesting levels. simply, Globally we 
+         can access the data wherever we need.
+    
+    What: Globally passing the data without using props.
+
+    Steps:
+         1. Define Context : userContext = React.createContext({}) 
+         2. <userContext.Provider value={{email:"praba@gmail.com"}}>
+                <child components/>
+         </userContext.Provider>  
+         
+         3. <userContext.Consumer>{(value)=>{
+             return(
+                 <div>
+                    {value.email}
+                 </div>
+             )
+         }} 
+         </userContext.Consumer>
+
+         4. const value = useContext(userContext)
+
+3. useCallback:
+
+        Why and What type of Problem does the useCallback solve.
+
+            - To Avoid unnecessary rendering. 
+            
+            - When we click or update any values in the component
+            some unnecessary values will re-render again and again like a loop. 
+            To Stop that type of re-render useCallback will be introduced.
