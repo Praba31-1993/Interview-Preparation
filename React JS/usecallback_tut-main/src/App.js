@@ -1,8 +1,12 @@
 import Callback from "./Component/Callback"
+import Memorize from "./Component/Memo";
+import Refer from "./Component/Refer";
 function App() {
   return (
     <div className="App">
-     <Callback/>
+     {/* <Callback/> */}
+     <Refer/>
+     {/* <Memorize/> */}
     </div>
   );
 }

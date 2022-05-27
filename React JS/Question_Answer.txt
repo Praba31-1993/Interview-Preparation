@@ -152,3 +152,20 @@ Additional Hooks
             - When we click or update any values in the component
             some unnecessary values will re-render again and again like a loop. 
             To Stop that type of re-render useCallback will be introduced.
+
+4. UseMemo:
+
+        - It is same as UseCallback.
+        - Returns the Memorized value
+        - It run when its dependency value update.
+        - It also stop the unnecessary render while the function is running.
+        - good practise is to stop using useMemo because it affects the performance.
+5. UseRef():
+        -We can use useRef for 2 purposes
+        -To Access our DOM Directly
+        -To accessing the previous value in the component.
+        -This hooks returns only one value
+        -It return the current values.
+        -While accessing the previous values using use state we will 
+        face looping issue.
+        
