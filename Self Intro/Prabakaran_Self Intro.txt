@@ -1,0 +1,19 @@
+Hello Praba,
+	I am Prabakaran from Pondicherry. basically I came from Computer Science background, currently
+ working as a Software Developer in Twilight IT Solution. My Technology Stack is React JS with 1 years of experience.
+I handled 2 projects. Kewye and CogsWorth.
+
+Kewye is a Real Estate Platform. This project is mainly focused on UK client who are searching or selling or buying their property around the UK.
+My roles and responsiblity is to handle the design issue and responsiveness of the websites and fixing the bugs.
+
+CogsWorth: It is a Appointment scheduling app, which is mainly focused on the Peple who are mainly focused on sharing 
+their business via online meeting. This project makes them to connect the person with their availability hours. which
+make more flexible to share their bussiness easily. In future we are planning to add more feature like video confering,
+chat messages. 
+
+That's all about my Project.
+
+My hobbies is to play carrom, cube and listen music. Sometime I will read book and spend my valuable time 
+with my family.
+
+Thank you
